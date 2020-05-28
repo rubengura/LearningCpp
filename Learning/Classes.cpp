@@ -9,10 +9,12 @@ public:
 	}
 };
 
-int main() {
+int run() {
 	Player player;
 	player.x = 0;
 	player.y = 0;
 	player.speed = 1;
 	player.Move(1, 1);
+
+	return 0;
 }
